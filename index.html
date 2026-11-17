@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- Define que o documento utiliza HTML5 -->
+
+<html lang="pt">
+<!-- Início do documento HTML e define o idioma como Português -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Permite utilizar caracteres especiais como ç, ã, á, é -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna o site responsivo em dispositivos móveis -->
+
+    <title>EDM - Energia para o Futuro</title>
+    <!-- Título exibido na aba do navegador -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Liga o arquivo CSS ao HTML -->
+</head>
+
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header>
+
+        <!-- Logotipo da empresa -->
+        <div class="logo">
+            <h2>EDM</h2>
+        </div>
+
+        <!-- Menu de navegação -->
+        <nav>
+            <ul class="nav-links">
+
+                <!-- Link para a página inicial -->
+                <li><a href="#">Início</a></li>
+
+                <!-- Link para os serviços -->
+                <li><a href="#">Serviços</a></li>
+
+                <!-- Link para notícias -->
+                <li><a href="#">Notícias</a></li>
+
+                <!-- Link para tarifas -->
+                <li><a href="#">Tarifas</a></li>
+
+                <!-- Link para contacto -->
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Botão do menu para dispositivos móveis -->
+        <div class="menu-btn">☰</div>
+
+    </header>
+
+    <!-- Secção principal de destaque -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <!-- Título principal -->
+            <h1>Energia para o Desenvolvimento de Moçambique</h1>
+
+            <!-- Texto de apresentação -->
+            <p>
+                Conectamos pessoas, empresas e comunidades através
+                de soluções energéticas modernas e sustentáveis.
+            </p>
+
+            <!-- Botão para mais informações -->
+            <a href="#" class="btn">Saiba Mais</a>
+
+        </div>
+
+    </section>
+
+    <!-- Secção de serviços -->
+    <section class="services">
+
+        <h2>Nossos Serviços</h2>
+
+        <!-- Container dos cartões -->
+        <div class="cards">
+
+            <!-- Serviço: Ligação Nova -->
+            <a href="formulario.html">
+                <div class="card">
+                    <h3>Ligação Nova</h3>
+                    <p>
+                        Solicite a ligação elétrica para sua residência
+                        ou empresa.
+                    </p>
+                </div>
+            </a>
+
+            <!-- Serviço: Compra de Energia -->
+            <a href="compra.html">
+                <div class="card">
+                    <h3>Compra de Energia</h3>
+                    <p>
+                        Recarregue o seu contador pré-pago rapidamente.
+                    </p>
+                </div>
+            </a>
+
+            <!-- Serviço: Assistência Técnica -->
+            <a href="formulario.html">
+                <div class="card">
+                    <h3>Assistência Técnica</h3>
+                    <p>
+                        Reporte avarias e receba suporte especializado.
+                    </p>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Secção de estatísticas -->
+    <section class="stats">
+
+        <!-- Número de clientes -->
+        <div class="stat">
+            <h2 class="counter" data-target="2500000">0</h2>
+            <p>Clientes</p>
+        </div>
+
+        <!-- Extensão da rede elétrica -->
+        <div class="stat">
+            <h2 class="counter" data-target="30000">0</h2>
+            <p>Km de Rede</p>
+        </div>
+
+        <!-- Províncias atendidas -->
+        <div class="stat">
+            <h2 class="counter" data-target="11">0</h2>
+            <p>Províncias Atendidas</p>
+        </div>
+
+    </section>
+
+    <!-- Secção de notícias -->
+    <section class="news">
+
+        <h2>Últimas Notícias</h2>
+
+        <div class="news-container">
+
+            <!-- Notícia 1 -->
+            <div class="news-card">
+                <h3>Expansão da Rede Elétrica</h3>
+                <p>
+                    Novas comunidades recebem energia
+                    através dos projetos de eletrificação.
+                </p>
+            </div>
+
+            <!-- Notícia 2 -->
+            <div class="news-card">
+                <h3>Transformação Digital</h3>
+                <p>
+                    Novos canais digitais facilitam o
+                    atendimento aos clientes.
+                </p>
+            </div>
+
+            <!-- Notícia 3 -->
+            <div class="news-card">
+                <h3>Energia Sustentável</h3>
+                <p>
+                    Investimentos em fontes renováveis
+                    fortalecem o setor energético.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Secção de contacto -->
+    <section class="contact">
+
+        <h2>Entre em Contacto</h2>
+
+        <!-- Formulário de contacto -->
+        <form id="contactForm">
+
+            <!-- Campo para o nome -->
+            <input type="text"
+                   placeholder="Nome Completo"
+                   required>
+
+            <!-- Campo para email -->
+            <input type="email"
+                   placeholder="Email"
+                   required>
+
+            <!-- Campo para mensagem -->
+            <textarea
+                placeholder="Sua Mensagem"
+                required></textarea>
+
+            <!-- Botão de envio -->
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+
+        <p>
+            © 2026 EDM - Electricidade de Moçambique.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <!-- Liga o arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
